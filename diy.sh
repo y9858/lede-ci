@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 修改默认 IP
-sed -i 's/192.168.1.1/192.168.2.200/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.2.3/g' package/base-files/files/bin/config_generate
 
 # bash 替换 ash
 sed -i '1s/ash/bash/' package/base-files/files/etc/passwd
