@@ -8,7 +8,7 @@ on:
 permissions: write-all
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede.git
+  REPO_URL: https://github.com/immortalwrt/immortalwrt.git
   REPO_BRANCH: master
   CONFIG_FILE: x86-64.config
   DIY_SCRIPT: diy.sh
